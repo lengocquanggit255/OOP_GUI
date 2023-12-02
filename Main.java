@@ -16,7 +16,6 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try {
-            primaryStage.setTitle("MetaDict");
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("chatPane.fxml"));
             Parent root = fxmlLoader.load();
             Scene scene = new Scene(root);
